@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+        <title>radio</title>
+        <style type="text/css">
+
+        .radio-group {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            height: 2.2em;
+            font-size: 1.6rem;
+            padding: 0px 1em;
+        }
+
+        .radio-group .radio {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            padding-left: 0.2em;
+            position:relative;
+        }
+
+        .radio-group .radio input[type=radio] {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+            outline:none;
+            display: none;
+        }
+
+        .radio-group .radio .word {
+            -webkit-box-flex: 84;
+            -webkit-flex: 84;
+            flex: 84;
+        }
+
+        .radio-group .radio .as-radio + label {
+            -webkit-appearance: none;
+            background-color: #fff;
+            border: 1px solid #cacece;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+            padding: 9px;
+            border-radius: 50px;
+            display: inline-block;
+            position: relative;
+            top: 4px;
+            left: -6px;
+        }
+
+        .radio-group .radio .as-radio:checked + label:after {
+            content: ' ';
+            width: 10px;
+            height: 10px;
+            border-radius: 50px;
+            position: absolute;
+            top: 4px;
+            background: #BABABA;
+            box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+            left: 4px;
+            font-size: 32px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="radio-group">
+            <label class="radio">
+                <span>
+                    <input type="radio" id="a" name="demo" class="as-radio" value="a">
+                    <label for="a"></label>
+                </span>
+                <span class="word">a</span>
+            </label>
+            <label class="radio">
+                <span>
+                    <input type="radio" id="b" name="demo" class="as-radio" value="b">
+                    <label for="b"></label>
+                </span>
+                <span class="word">b</span>
+            </label>
+        </div>
+    </body>
+</html>

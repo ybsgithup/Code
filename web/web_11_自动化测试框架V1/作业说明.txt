@@ -1,0 +1,12 @@
+
+
+执行代码
+C:\Projects\TestApi0515\web\web_11_自动化测试框架V1\tests、test_login.py
+
+
+excel测试数据
+C:\Projects\TestApi0515\web\web_11_自动化测试框架V1\data、test_case.xlsx
+
+
+读取excel数据方法
+C:\Projects\TestApi0515\web\web_11_自动化测试框架V1\common、handle_excel.py
