@@ -1,0 +1,6 @@
+ERROR    root:base_page.py:48 元素定位失败：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()="加入课堂成功"]"}
+  (Session info: chrome=84.0.4147.89)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 6.1.7601 SP1 x86_64)
+ERROR    root:base_page.py:48 元素定位失败：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()="加入课堂成功"]"}
+  (Session info: chrome=84.0.4147.89)
+  (Driver info: chromedriver=71.0.3578.137 (86ee722808adfe9e3c92e6e8ea746ade08423c7e),platform=Windows NT 6.1.7601 SP1 x86_64)
